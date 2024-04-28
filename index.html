@@ -196,25 +196,33 @@
         <button onclick="clearOutput()" class="calcbtn_c col"><span class="calc_icon trash-bin"></span></button>
       </div>
     </div>
-    <div class="buttons">
-        <button onclick="appendToOutput('1')" class="calcbtn">1</button>
-        <button onclick="appendToOutput('2')" class="calcbtn">2</button>
-        <button onclick="appendToOutput('3')" class="calcbtn">3</button>
-        <button onclick="appendToOutput('+')" class="calcbtn">+</button>
-        <button onclick="appendToOutput('4')" class="calcbtn">4</button>
-        <button onclick="appendToOutput('5')" class="calcbtn">5</button>
-        <button onclick="appendToOutput('6')" class="calcbtn">6</button>
-        <button onclick="appendToOutput('-')" class="calcbtn">-</button>
-        <button onclick="appendToOutput('7')" class="calcbtn">7</button>
-        <button onclick="appendToOutput('8')" class="calcbtn">8</button>
-        <button onclick="appendToOutput('9')" class="calcbtn">9</button>
-        <button onclick="appendToOutput('*')" class="calcbtn">×</button>
-        <button onclick="appendToOutput('0')" class="calcbtn">0</button>
-        <button onclick="clearOutput()" class="calcbtn">C</button>
-        <button onclick="calculateResult()" class="calcbtn">=</button>
-        <button onclick="appendToOutput('/')" class="calcbtn">÷</button>
+    <div class="container">
+      <div class="row justify-content-center">
+        <button onclick="appendToOutput('7')" class="calcbtn col">7</button>
+        <button onclick="appendToOutput('8')" class="calcbtn col">8</button>
+        <button onclick="appendToOutput('9')" class="calcbtn col">9</button>
+        <button onclick="appendToOutput('/')" class="calcbtn col">÷</button>
+      </div>
+      <div class="row justify-content-center">
+        <button onclick="appendToOutput('4')" class="calcbtn col">4</button>
+        <button onclick="appendToOutput('5')" class="calcbtn col">5</button>
+        <button onclick="appendToOutput('6')" class="calcbtn col">6</button>
+        <button onclick="appendToOutput('-')" class="calcbtn col">-</button>
+      </div>
+      <div class="row justify-content-center">
+        <button onclick="appendToOutput('1')" class="calcbtn col">1</button>
+        <button onclick="appendToOutput('2')" class="calcbtn col">2</button>
+        <button onclick="appendToOutput('3')" class="calcbtn col">3</button>
+        <button onclick="appendToOutput('+')" class="calcbtn col">+</button>
+      </div>
+      <div class="row justify-content-center">
+        <button onclick="appendToOutputpi()" class="calcbtn col">π</button>
+        <button onclick="appendToOutput('0')" class="calcbtn col">0</button>
+        <button onclick="appendToOutput('.')" class="calcbtn col">.</button>
+        <button onclick="calculateResult()" class="calcbtn col">=</button>
+      </div>
     </div>
-</div>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
