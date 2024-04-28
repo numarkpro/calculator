@@ -9,6 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     cursor: default;
+    transition: 0.5s;
 }
 
 .calculator {
