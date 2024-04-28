@@ -257,6 +257,35 @@ function calculateResult() {
         }
     }
 }
+    document.addEventListener('keydown', function (event) {
+      const key = event.key;
+
+      if (/^[0-9+\-*/().]$/.test(key)) {
+        appendToOutput(key);
+      }
+
+      if (key === ',') {
+        appendToOutput('.');
+      }
+
+      if (key === 'p') {
+        appendToOutputpi();
+      }
+
+      if (key === 'Enter') {
+        calculateResult();
+      }
+
+      if (key === '=') {
+        calculateResult();
+      }
+
+      if (key === 'Backspace') {
+        deleteCharacter();
+      }
+
+
+    });
 
   </script>
 </body>
