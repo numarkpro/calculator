@@ -189,8 +189,12 @@
   </nav>
 
   <div class="calculator">
-    <div class="display">
-        <input type="text" id="output" disabled>
+    <div class="container">
+      <div class="display row">
+        <input class="result_f col" type="text" id="output" disabled>
+        <button onclick="deleteCharacter()" class="calcbtn_c col"><span class="calc_icon mdi--keyboard-clear"></span></button>
+        <button onclick="clearOutput()" class="calcbtn_c col"><span class="calc_icon trash-bin"></span></button>
+      </div>
     </div>
     <div class="buttons">
         <button onclick="appendToOutput('1')" class="calcbtn">1</button>
