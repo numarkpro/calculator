@@ -229,9 +229,17 @@
     crossorigin="anonymous"></script>
   <script>
     var output = document.getElementById('output');
-function appendToOutput(value) {
-    if (output) {
+
+    function appendToOutput(value) {
+      if (output) {
         output.value += value;
+      }
+    }
+
+    function appendToOutputpi(value) {
+      if (output) {
+        output.value += Math.PI;
+      }
     }
 }
 function clearOutput() {
