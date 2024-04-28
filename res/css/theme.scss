@@ -1,0 +1,49 @@
+$dark_calc_bt_bg: #3b4249;
+$dark_calc_bg: #292e33;
+$dark_calc_result_bg: #353b41;
+$dark_calc_bt: #485764;
+
+$light_calc_bt_bg: #c0bfbf;
+$light_calc_bg: #e0e0e0;
+$light_calc_result_bg: #d1d1d1;
+$light_calc_bt: #8f8f8f;
+
+[data-bs-theme="dark"] {
+  body {
+    background-color: #{$dark_calc_bg};
+  }
+
+  .calculator {
+    background-color: #{$dark_calc_bt_bg};
+  }
+
+  .result_f {
+    background-color: #{$dark_calc_result_bg};
+  }
+
+  .calcbtn {
+    background-color: #{$dark_calc_bt};
+  }
+
+  .calcbtn_c {
+    background-color: #{$dark_calc_bt};
+  }
+}
+
+[data-bs-theme="light"] {
+  body {
+    background-color: #{$light_calc_bg};
+  }
+
+  .calculator {
+    background-color: #{$light_calc_bt_bg};
+  }
+
+  .result_f {
+    background-color: #{$light_calc_result_bg};
+  }
+
+  .calcbtn {
+    background-color: #{$light_calc_bt};
+  }
+}
