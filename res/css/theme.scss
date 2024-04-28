@@ -1,12 +1,15 @@
 $dark_calc_bt_bg: #3b4249;
 $dark_calc_bg: #292e33;
-$dark_calc_result_bg: #353b41;
+$dark_calc_result_bg: #414e5a;
 $dark_calc_bt: #485764;
+$dark_calc_bt_hover: #44525f;
 
 $light_calc_bt_bg: #c0bfbf;
 $light_calc_bg: #e0e0e0;
 $light_calc_result_bg: #d1d1d1;
-$light_calc_bt: #8f8f8f;
+$light_calc_bt: #a1a1a1;
+$light_calc_bt_hover: #a5a5a5;
+
 
 [data-bs-theme="dark"] {
   body {
@@ -24,9 +27,17 @@ $light_calc_bt: #8f8f8f;
   .calcbtn {
     background-color: #{$dark_calc_bt};
   }
+  
+  .calcbtn:hover {
+    background-color: #{$dark_calc_bt_hover};
+  }
 
   .calcbtn_c {
-    background-color: #{$dark_calc_bt};
+    background-color: #{$dark_calc_bt_hover};
+  }
+
+  .calcbtn_c:hover {
+    background-color: #{$dark_calc_bt_hover};
   }
 }
 
@@ -45,5 +56,21 @@ $light_calc_bt: #8f8f8f;
 
   .calcbtn {
     background-color: #{$light_calc_bt};
+  }
+
+  .calcbtn:hover {
+    background-color: #{$light_calc_bt_hover};
+  }
+
+  .calcbtn_c {
+    background-color: #{$light_calc_bt};
+  }
+
+  .calcbtn_с:hover {
+    background-color: #{$light_calc_bt_hover};
+  }
+
+  .calc_icon {
+    background-color: #fff;
   }
 }

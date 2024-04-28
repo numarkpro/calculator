@@ -1,3 +1,4 @@
+@charset "UTF-8";
 [data-bs-theme=dark] body {
   background-color: #292e33;
 }
@@ -5,13 +6,19 @@
   background-color: #3b4249;
 }
 [data-bs-theme=dark] .result_f {
-  background-color: #353b41;
+  background-color: #414e5a;
 }
 [data-bs-theme=dark] .calcbtn {
   background-color: #485764;
 }
+[data-bs-theme=dark] .calcbtn:hover {
+  background-color: #44525f;
+}
 [data-bs-theme=dark] .calcbtn_c {
-  background-color: #485764;
+  background-color: #44525f;
+}
+[data-bs-theme=dark] .calcbtn_c:hover {
+  background-color: #44525f;
 }
 
 [data-bs-theme=light] body {
@@ -24,5 +31,17 @@
   background-color: #d1d1d1;
 }
 [data-bs-theme=light] .calcbtn {
-  background-color: #8f8f8f;
+  background-color: #a1a1a1;
+}
+[data-bs-theme=light] .calcbtn:hover {
+  background-color: #a5a5a5;
+}
+[data-bs-theme=light] .calcbtn_c {
+  background-color: #a1a1a1;
+}
+[data-bs-theme=light] .calcbtn_с:hover {
+  background-color: #a5a5a5;
+}
+[data-bs-theme=light] .calc_icon {
+  background-color: #fff;
 }/*# sourceMappingURL=theme.css.map */
